@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import { Text } from "@nextui-org/react";
 // import Video from '../../public/videos/'
 
 const HeroPanel = () => {
