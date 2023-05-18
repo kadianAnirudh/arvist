@@ -33,7 +33,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="">
+    <header className="top-0 left-0 right-0 z-50">
       <nav className="mx-auto flex max-w-9xl items-center text-white justify-between p-6 lg:px-8 bg-black h-[100px]" aria-label="Global">
         <div className="flex lg:flex-1 h-[60px] w-[100px]">
           <a href="#" className="-m-1.5 p-1.5">

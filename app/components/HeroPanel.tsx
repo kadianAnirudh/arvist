@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const HeroPanel = () => {
   return (
-<div className="h-[90vh] w-screen relative">
-  <div className="VideoHolder h-full w-full top-0 right-0 left-0 bottom-0 relative">
-    <video className="fixed h-full w-full object-cover" autoPlay loop preload="auto" muted>
+<div className="h-[100vh] w-screen relative overflow-hidden">
+  <div className="VideoHolder h-full w-full top-0 right-0 left-0 bottom-0 relative overflow-hidden">
+    <video className="object-cover" autoPlay loop preload="auto" muted>
       <source src="/videos/bgVideo.mp4" type="video/mp4" />
     </video>
     <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center">
