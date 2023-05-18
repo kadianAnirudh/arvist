@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Navbar from './components/Navbar'
 import HeroPanel from './components/HeroPanel'
 import PanelOne from './components/PanelOne'
+import Testimonial from './components/Testimonial'
+
 
 export default function Home() {
   return (
@@ -9,6 +11,7 @@ export default function Home() {
 <Navbar/>
 <HeroPanel/>
 <PanelOne/>
+<Testimonial/>
 </div>    
   )
 }
