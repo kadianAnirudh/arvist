@@ -1,6 +1,7 @@
 'use client'
 
 import Image from "next/image"
+import Link from "next/link"
 
 const Testimonial = () => {
   return (
@@ -22,7 +23,7 @@ const Testimonial = () => {
               alt=""
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-white"> Anirudh Kadian</div>
+              <div className="font-semibold text-white cursor-pointer"><Link href="https://maple-cheese-7fb.notion.site/Resume-Portfolio-553ee32c04374e28808544adffdaf8a9"> Anirudh Kadian </Link></div>
               <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-white">
                 <circle cx={1} cy={1} r={1} />
               </svg>

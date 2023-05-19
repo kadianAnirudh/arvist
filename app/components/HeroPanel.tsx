@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { Text } from "@nextui-org/react";
+import Link from 'next/link';
 // import Video from '../../public/videos/'
 
 const HeroPanel = () => {
@@ -13,7 +14,7 @@ const HeroPanel = () => {
     <div className="absolute top-0 left-0 w-full h-full z-10 flex flex-col justify-center items-center">
       <h1 className="text-sky-400 text-4xl font-bold mr-4 ml-4 mb-8 md:text-6xl">REDUCE SUPPLY CHAIN COSTS. </h1>
       <h1 className="text-white text-4xl mr-4 ml-4 font-bold md:text-6xl">WITH HUMAN CENTRIC AI IN USA </h1>
-      <button className="rounded-full p-4 mt-10 primary bg-sky-600">Get in Touch ➤ </button>
+      <button className="rounded-full p-4 mt-10 primary bg-sky-600"><Link href="https://maple-cheese-7fb.notion.site/Resume-Portfolio-553ee32c04374e28808544adffdaf8a9">Get in Touch ➤</Link></button>
     </div>
     <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60" />
   </div>
